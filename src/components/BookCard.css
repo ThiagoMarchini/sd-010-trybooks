@@ -1,8 +1,8 @@
 .book-card {
   display: flex;
   flex-direction: column;
-  height: 300px;
-  width: 50vw;
+  height: 200px;
+  width: 40vw;
   margin: 5px;
 }
 
@@ -10,16 +10,19 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-bottom: 15px;
 }
 
 .book-card > img {
   border-radius: 0.6rem;
-  width: 50vw;
-  height: 300px;
+  width: 40vw;
+  height: 200px;
+  overflow: hidden;
   object-fit: fill;
 }
 
 .book-list {
   display: flex;
   overflow-x: scroll;
+  margin: 10px 0 30px;
 }
