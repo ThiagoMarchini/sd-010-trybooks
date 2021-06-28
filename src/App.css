@@ -1,0 +1,9 @@
+body, html, .root {
+  background-color: var(--tb-dark-blue);
+  color: white;
+}
+
+/* dark-blue #0a1728 */
+/* lime #accf57 */
+/* light-green #6cc7a3 */
+/* dark-green #2fc18c */
