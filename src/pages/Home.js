@@ -1,7 +1,14 @@
 import React from 'react';
+import Header from '../components/Header';
+import BookList from '../components/BookList';
 
 function Home() {
-  return (<h1>Home</h1>);
+  return (
+    <>
+      <Header />
+      <BookList />
+    </>
+  );
 }
 
 export default Home;

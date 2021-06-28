@@ -1,10 +1,10 @@
 import React, { useContext, useState } from 'react';
 import Form from 'react-bootstrap/form';
 import Button from 'react-bootstrap/button';
+import { useHistory } from 'react-router';
 import TrybooksLogo from '../img/logo.png';
 import './Login.css';
 import UserContext from '../context/UserContext';
-import { useHistory } from 'react-router';
 
 /** Source: https://react-bootstrap.netlify.app/components/forms/#forms */
 function Login() {

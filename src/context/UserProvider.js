@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import UserContext from './UserContext';
 
 function UserProvider({ children }) {
-  const [login, setLogin] = useState('');
+  const [login, setLogin] = useState('mario.bros@betrybe.com');
   const [password, setPassword] = useState('');
 
   function successLogin(loginText, passwordText) {
