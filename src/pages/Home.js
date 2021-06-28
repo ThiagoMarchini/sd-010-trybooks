@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Header from '../components/Header';
 import BookList from '../components/BookList';
+import BookContext from '../context/BookContext';
+import FilteredList from '../components/FilteredList';
 
 function Home() {
+  const { filteredBooks } = useContext(BookContext);
   return (
     <>
       <Header />
-      <BookList />
+      {
+        filteredBooks?.length > 0
+          ? <FilteredList filteredBooks={ filteredBooks } />
+          : <BookList />
+      }
     </>
   );
 }

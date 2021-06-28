@@ -4,7 +4,6 @@ import BookProvider from './context/BookProvider';
 import UserProvider from './context/UserProvider';
 import Login from './pages/Login';
 import Home from './pages/Home';
-import Library from './pages/Library';
 
 import './App.css';
 import './custom.scss';
@@ -17,7 +16,6 @@ function App() {
           <Switch>
             <Route path="/login" component={ Login } />
             <Route path="/" component={ Home } />
-            <Route path="/library" component={ Library } />
           </Switch>
         </BrowserRouter>
       </UserProvider>
